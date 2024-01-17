@@ -61,19 +61,51 @@
 
 // }
 
+
 // Jawaban Soal No. 4
+// void main(List<String> args){
+//     var day = 5;
+//     var validity = day < 1 && day > 31;
+//     switch(day){
+//         default: {
+//             if(day < 1){
+//             print("invalid");
+//             }else if(day > 31){
+//             print("invalid");
+//             }else{
+//             print(day);
+//             };break;
+//             }
+//     }
 
-void main(List<String> args){
-    var day = "";
-    switch(day){
-        case 0: {print("Januari"); break;}
-    }
-    // var month = range(1,12);
-    // var year = range(1900,2200);
+//     var bulan = "3";
+//     switch(bulan){
+//         case "1": {print("Januari");break;}
+//         case "2": {print("Februari");break;}
+//         case "3": {print("Maret");break;}
+//         case "4": {print("April");break;}
+//         case "5": {print("Mei");break;}
+//         case "6": {print("Juni");break;}
+//         case "7": {print("Juli");break;}
+//         case "8": {print("Agustus");break;}
+//         case "9": {print("September");break;}
+//         case "10": {print("Oktober");break;}
+//         case "11": {print("November");break;}
+//         case "12": {print("Desember");break;}
+//         default : {print("invalid");break;}
+//     }
 
-    // switch(month){
-    //     case 1: {print(day + "Januari"); break;}
-    //     case 2: {print("Januari"); break;}
-    // }
+//     var tahun = 2023;
+//     switch(tahun){
+//         default: {
+//             if(tahun < 1900){
+//                 print("invalid");
+//             }else if(tahun > 2200){
+//                 print("invalid");
+//             }else{
+//                 print(tahun);
+//             };break;
+//             }
+//     }
 
-}
+// }
