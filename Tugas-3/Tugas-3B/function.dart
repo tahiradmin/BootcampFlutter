@@ -34,4 +34,18 @@
 //   return "Nama saya " + name + ", umur saya " + age + " tahun, alamat saya di " + address + ", dan saya punya hobby yaitu " + hobby;
 // }
 
+// No. 4
+// void main() {
+//   int number = 6;
+//   int result = factorial(number);
+//   print('$number = $result');
+// }
+
+// factorial(int n) {
+//   if (n == 0 || n == 1) {
+//     return 1;
+//   } else {
+//     return n * factorial(n - 1);
+//   }
+// }
 
