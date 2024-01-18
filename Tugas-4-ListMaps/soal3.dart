@@ -13,9 +13,8 @@ dataHandling()
 
     input.forEach((data) {
     print('Nomor ID: ${data[0]}');
-    print('Nama: ${data[1]}');
-    print('Lahir: ${data[2]}');
-    print('Tanggal: ${data[3]}');
+    print('Nama Lengkap: ${data[1]}');
+    print('TTL: ${data[2]} ${data[3]}');
     print('Hobi: ${data[4]}');
     print('');
   });
