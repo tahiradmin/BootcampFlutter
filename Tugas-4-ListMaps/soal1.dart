@@ -1,6 +1,5 @@
 void main() {
-  List<int> result = range(1, 10);
-  print(result);
+  print(range(1, 10));
 }
 
 range(startNum, finishNum) {

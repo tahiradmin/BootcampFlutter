@@ -1,6 +1,5 @@
 void main(){
-List<int> result = rangeWithStep(5,2,1);
-print(result);
+print(rangeWithStep(5,2,1));
 }
 
 rangeWithStep(startNum,finishNum,step){
