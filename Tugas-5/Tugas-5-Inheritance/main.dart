@@ -18,5 +18,10 @@ print("Power Point Armor titan : ${armor.powerPoint}");
 print("Power Point Attack titan : ${attack.powerPoint}");
 print("Power Point Beast titan : ${beast.powerPoint}");
 print("Power Point Human : ${man.powerPoint}");
+print("");
+print("Serangan Armor Titan: " + armor.terjang());
+print("Serangan Attack Titan:  " + attack.punch());
+print("Serangan Beast Titan:  " + beast.lempar());
+print("Serangan Human:  " + man.killAlltitan());
 
 }

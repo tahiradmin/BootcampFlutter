@@ -1,6 +1,6 @@
 class Lingkaran {
   double? _jari;
-  double? _pi;
+  late final double? _pi;
 
   set setJari(double value){
       if (value < 0) {
@@ -20,6 +20,6 @@ class Lingkaran {
 
   double get pi => _pi!;
 
-  double get luas => _pi! * _jari!;
+  double get luas => _pi! * _jari! * _jari!;
 
 }
