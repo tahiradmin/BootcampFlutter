@@ -1,7 +1,7 @@
 void main(){
 double luasSegitiga;
 
-Segitiga siku = new Segitiga();
+Segitiga siku = Segitiga();
 siku.setengah = 0.5;
 siku.alas = 20.0;
 siku.tinggi = 30.0;
